@@ -1,6 +1,5 @@
 div.removePadding {
-  
-    padding :0;
+	padding: 0;
 }
 
 .grid {
@@ -20,16 +19,15 @@ div.removePadding {
 	position: relative;
 }
 
-@media (min-width: 768px) {
-.grid li{
-width: 440px;
-}
+@media ( min-width : 768px) {
+	.grid li {
+		width: 440px;
+	}
 }
 
 .grid figure {
 	margin: 0;
 	position: relative;
-
 }
 
 .grid figure img {
@@ -52,7 +50,7 @@ width: 440px;
 	padding: 0;
 	color: #fff;
 	font-weight: bold;
-	font-size:2em;
+	font-size: 2em;
 }
 
 .grid figcaption span:before {
@@ -84,17 +82,14 @@ width: 440px;
 	transition: transform 0.3s, opacity 0.3s;
 }
 
-.no-touch .cs-style-1 figure:hover figcaption,
-.cs-style-1 figure.cs-hover figcaption {
+.no-touch .cs-style-1 figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption
+	{
 	opacity: 1;
 	-webkit-transform: translate(15px, 15px);
 	-moz-transform: translate(15px, 15px);
 	-ms-transform: translate(15px, 15px);
 	transform: translate(15px, 15px);
 }
-
-
-
 
 .cs-style-1 figcaption h3 {
 	
@@ -107,83 +102,77 @@ width: 440px;
 .cs-style-1 figcaption a {
 	margin-top: 30px;
 }
-<!-- TEST END -->
-body {
+
+<!--
+TEST END -->body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #89867e;
 	background: #fff;
 }
 
-div.technology
-{
+div.technology {
 	font: 5 10px/1.3 'Noto Sans', sans-serif;
-    width: 600px;
-    margin: auto;
-    text-align: left;
-    font-size: 1em;
-    color: white;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+	width: 600px;
+	margin: auto;
+	text-align: left;
+	font-size: 1em;
+	color: white;
 }
-div.left
-{
-	
-    text-align: left;
-    
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+
+div.left {
+	text-align: left;
 }
+
 footer {
-   font: 100 10px/1.3 'Arizonia', Helvetica, sans-serif;
-    width: 900px;
-    margin: auto;
-    text-align: center;
-    font-size: 1em;
-    color: #990000;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+	font: 100 10px/1.3 'Arizonia', Helvetica, sans-serif;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+	color: #990000;
+	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
+
 h1.titlename {
-   font: 300 50px/1.3 'Arizonia', Helvetica, sans-serif;
-    width: 600px;
-    margin: auto;
-    text-align: left;
-    font-size: 1em;
-    color: #2b2b2b;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
-}
-h1{
-   font: 300 50px/1.3 'Arizonia', Helvetica, sans-serif;
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    font-size: 1em;
-    color: #2b2b2b;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
-}
-h2{
-   font: 300 50px/1.3 ''Tangerine', serif;
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    font-size: 1em;
-    color: #2b2b2b;
-   
-}
-p.interest {
 	font: 300 50px/1.3 'Arizonia', Helvetica, sans-serif;
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    font-size: 1em;
-    color: #2b2b2b;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+	width: 600px;
+	margin: auto;
+	text-align: left;
+	font-size: 1em;
+	color: #2b2b2b;
 }
-p.right 
-{
-	
-    text-align: right;
-    
+
+h1 {
+	font: 'Raleway';
 }
+
+h1.skills-link {
+	font: 'Raleway';
+	font-size: 30px;
+	font-weight: 10;
+	text-align: center;
+}
+
+h2 {
+	font: 'Raleway';
+	font-size: 20px;
+	font-weight: 10;
+}
+
+p.interest {
+	color: #aa3e03;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 10;
+	text-align: center;
+}
+
+p.right {
+	text-align: right;
+}
+
 p.main {
-	font-family: 'Brush Script MT', cursive;
+	font: 'Raleway';
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -210,34 +199,33 @@ ul li.center1 {
 	
 }
 
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
 
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 120px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
+/* Set the fixed height of the footer here */
+#push, #footer {
+	height: 120px;
+}
 
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
+#footer {
+	background-color: #f5f5f5;
+}
 
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
 
 .table1 {
 	display: table; /* Allow the centering to work */
@@ -246,7 +234,7 @@ ul li.center1 {
 /* button:hover:before {
 	background-image: images/Technology-Voucher-Program.jpg);
 	content:"Reply!} */
-	/* #resume
+/* #resume
 	{
     
     font-size:0;

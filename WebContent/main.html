@@ -5,11 +5,14 @@
 <title>Rahul Pradeep Kamath</title>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<!--  Link for glyphonics -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+	rel="stylesheet">
 <!-- Latest compiled and minified JavaScript -->
 
 <script
@@ -17,162 +20,872 @@
 <script
 	src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
-
+<link href="css/style.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/component.css" rel="stylesheet">
 <!-- fway Font -->
 <link href="http://fonts.googleapis.com/css?family=Arizonia"
 	rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" type="text/css"
+	href="//fonts.googleapis.com/css?family=Raleway" />
+<link href="css/ihover.css" rel="stylesheet">
 <script type="text/javascript">
-
-var slideimages = new Array() // create new array to preload images
-slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "images/2011_thor_movie-normal.jpg" // set image src property to image path, preloading image in the process
-slideimages[1] = new Image()
-slideimages[1].src = "images/3D-Wallpaper-Animation-Game-Caracter.jpg"
-slideimages[2] = new Image()
-slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
-
-	
+	var slideimages = new Array() // create new array to preload images
+	slideimages[0] = new Image() // create new instance of image object
+	slideimages[0].src = "images/2011_thor_movie-normal.jpg" // set image src property to image path, preloading image in the process
+	slideimages[1] = new Image()
+	slideimages[1].src = "images/3D-Wallpaper-Animation-Game-Caracter.jpg"
+	slideimages[2] = new Image()
+	slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
 </script>
 </head>
 <body>
-	<div class="col-xs-6 col-md-offset-3">
+	<div class="col-xs-10 col-md-offset-1">
 		<div id="btn-group">
 			<p class="main">
-				<font size="5"> Rahul Pradeep Kamath </font>
+				<font size="5" style="font-family: 'Raleway'"> Rahul Pradeep
+					Kamath </font>
 
 
-				<button type="button" class="btn btn-default pull-right"
+				<button type="button"
+					class="btn btn-sm btn-hover btn-warning pull-right"
 					aria-label="Left Align" data-toggle="collapse" data-target="#info"
-					style="padding: 0px; margin: 0px">
+					style="padding: 0px; padding-left: 5px; padding-right: 5px; margin: 0px">
 					<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
 				</button>
-				<button type="button" class="btn btn-default pull-right"
+				<button type="button"
+					class="btn btn-sm btn-hover btn-warning pull-right"
 					data-toggle="collapse" data-target="#aboutMe"
-					style="padding: 0px; padding-right: 20px; margin: 0px">
+					style="padding: 0px; padding-left: 5px; padding-right: 15px; margin: 0px">
 					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				</button>
-				<div id="aboutMe" class="collapse">
+				<!-- 	<a class="icon" data-toggle="collapse" data-target="#aboutMe"
+					href="#"> <i class="glyphicon glyphicon-user pull-right"
+					style="padding: 0px; padding-left: 5px; padding-right: 5px; margin: 0px"></i>
+				</a> <a class="icon" data-toggle="collapse" data-target="#info" href="#">
+					<i class="glyphicon glyphicon-list pull-right"
+					style="padding: 0px; padding-left: 5px; padding-right: 5px; margin: 0px"></i>
+				</a> -->
+			<div id="aboutMe" class="collapse dropdown">
 				<ul class="horizonatal-list">
 					<li class="center1" style="padding-top: 0"><a
-						href="https://www.linkedin.com/in/rkamath1" target="_blank"><font size="2">Linkedin</font></a></li>
+						href="https://www.linkedin.com/in/rkamath1" target="_blank"><font
+							style="font-family: 'Raleway'" size="2">Linkedin</font></a></li>
 					<li class="center1"></li>
 					<li class="center1"></li>
 
 					<li class="center1" style="padding-top: 0"><a
-						href="https://www.facebook.com/rahul.kamath.399" target="_blank"><font size="2">Facebook</font></a></li>
+						href="https://www.facebook.com/rahul.kamath.399" target="_blank"><font
+							style="font-family: 'Raleway'" size="2">Facebook</font></a></li>
 					<li class="center1" style="padding-top: 0"></li>
 					<li class="center1" style="padding-top: 0"></li>
 
 					<li class="center1" style="padding-top: 0"><a
-						href="https://github.com/rkamath89" target="_blank"><font size="2">GitHub</font></a></li>
+						href="https://github.com/rkamath89" target="_blank"><font
+							style="font-family: 'Raleway'" size="2">GitHub</font></a></li>
 					<li class="center1" style="padding-top: 0"></li>
 					<li class="center1" style="padding-top: 0"></li>
 
 				</ul>
 			</div>
-			<div id="info" class="collapse">
+			<div id="info" class="collapse dropdown">
+				<div class="arrow-up"></div>
 				<ul class="horizonatal-list">
 					<li class="center1" style="padding-top: 0"><a
-						href="#about-link"><font size="2">About Me</font></a></li>
+						href="#about-link"><font size="2"
+							style="font-family: 'Raleway'">About Me</font></a></li>
 					<li class="center1"></li>
 					<li class="center1"></li>
 
-					<li class="center1" style="padding-top: 0"><a
-						href="#work-link"><font size="2">Work</font></a></li>
+					<li class="center1" style="padding-top: 0"><a href="#Projects"><font
+							size="2" style="font-family: 'Raleway'">Work</font></a></li>
 					<li class="center1" style="padding-top: 0"></li>
 					<li class="center1" style="padding-top: 0"></li>
 
 					<li class="center1" style="padding-top: 0"><a
-						href="#skills-link"><font size="2">Skills</font></a></li>
+						href="#skills-link"><font size="2"
+							style="font-family: 'Raleway'">Skills</font></a></li>
 					<li class="center1" style="padding-top: 0"></li>
 					<li class="center1" style="padding-top: 0"></li>
 
 					<li class="center1" style="padding-top: 0"><a
-						href="#resume-link"><font size="2">Resume</font></a></li>
+						href="#resume-link"><font size="2"
+							style="font-family: 'Raleway'">Resume</font></a></li>
 					<li class="center1" style="padding-top: 0"></li>
 					<li class="center1" style="padding-top: 0"></li>
 
 					<li class="center1" style="padding-top: 0"><a
-						href="#contact-link"><font size="2">Contact</font></a></li>
+						href="#contact-link"><font size="2"
+							style="font-family: 'Raleway'">Contact</font></a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<img src="images/2011_thor_movie-normal.jpg" id="slide"
+	<!-- Image and Information -->
+	<div class="container">
+		<div class="main">
+			<!-- SECOND EXAMPLE -->
+			<div class="view view-second">
+				<img src="images/DSC01881.JPG" height="600" width="1349" />
+				<h2 class="custom">Graduate Student</h2>
+				<div class="mask"></div>
+				<div class="content">
+					<p>
+						<br /> Hi, I am currently pursuing my Masters in Computer Science
+						at <a target="_blank" href="http://www.arizona.edu/"><font
+							color="WHITE"><strong>The University of Arizona</strong></font></a>,
+						Tucson <br />I have completed my Bachelors in Information science
+						and Engineering from <a target="_blank" href="http://www.pes.edu/"><font
+							color="WHITE"><strong>PESIT</strong></font></a>, Bangalore, India. <br />After
+						Completing my Bachelors i worked for 3yrs in the R&D Department
+						WarehouseManagement <br />at <a target="_blank"
+							href="http://www.manh.com/"><font color="WHITE"><strong>Manhattan
+									Associates</strong></font></a>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- 
+	<img src="images/DSC01881.JPG" id="slide"
 		alt="HTML Tutorial" height="600" width="1349" />
-
-
-
-	<div id="information" style="margin-top: 52px;">
-		<div class="table1">
-			<footer>
-				<ul class="horizonatal-list">
-					<li class="center1"><a href="#about-link"><font size="6">About
-								Me</font></a></li>
-					<li class="center1"></li>
-					<li class="center1"></li>
-
-					<li class="center1"><a href="#work-link"><font size="6">Work</font></a></li>
-					<li class="center1"></li>
-					<li class="center1"></li>
-
-					<li class="center1"><a href="#skills-link"><font size="6">Skills</font></a></li>
-					<li class="center1"></li>
-					<li class="center1"></li>
-
-					<li class="center1"><a href="#resume-link"><font size="6">Resume</font></a></li>
-					<li class="center1"></li>
-					<li class="center1"></li>
-
-					<li class="center1"><a href="#contact-link"><font size="6">Contact</font></a></li>
-				</ul>
-			</footer>
-		</div>
+ -->
+	<br />
+	<br />
+	<br />
 	</div>
-
 	<div id="About-me" class="skills">
 		<h5 id="about-link">
 			<font color="black" size="10"></font>
 		</h5>
 	</div>
-	<div id="services" class="section" style="margin-top: 22px;">
+	<br />
+	<br />
+	<div id="projects" class="section welcome">
 		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="col-xs-6 col-md-offset-3">
-						<h1 class="titlename">
-							<font color="black" size="10">Rahul Pradeep Kamath</font>
-						</h1>
-						<h5
-							style="background-color: #1CB5EC; margin-top: 8px; padding-bottom: 5px; color: white;">
-							<strong> Passionate Software Engineer</strong>
-						</h5>
-						<br />
+			<div id="Projects">
+				<p class="interest">
+					Projects <br /> <br />
+				</p>
+			</div>
 
+
+			<div class="row masonry-grid">
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal1" class="image"> <img
+						src="images/shopforme.png"
+						class="thumbnail img-responsive center-block" height=150 width=150
+						alt="Single sign on"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">Single sign on Shopping Portal
+							</font>
+						</h3>
 						<p>
-							<font size="5"> Hey, I am originally from Bangalore, India
-								and I hold a bachelors in Computer Science with a good amount of
-								programming experience. Currently, I am pursuing masters in
-								Computer Science from University Of Arizona, Tucson , Arizona ,
-								USA. I'm training to have my career as a Software Developer . </font>
+							<u><a target="_blank"
+								href="http://en.wikipedia.org/wiki/Single_sign-on">Single
+									Sign On</a></u> was used to Develop an online shopping portal similar
+							to Amazon, users can register and are authenticated Based on the
+							Credentials. Users can Add, Delete, Modify items and request for
+							items not in stock.
+
+
+
 						</p>
 					</div>
-					<!-- <div class="col-md-7 col-sm-7 col-xs-12"> -->
-					<img class="img-circle" src="images/IMG_1554.JPG"
-						alt="bolt all devices"
-						style="border: 2px solid black; width: 15%;">
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal2" class="image"> <img
+						src="images/MpiProfiler.png"
+						class="thumbnail img-responsive center-block" height=200 width=200
+						alt="MPI Profiler"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">MPI Profiler </font>
+						</h3>
+						<p>
+							<u><a target="_blank"
+								href="http://en.wikipedia.org/wiki/Message_Passing_Interface">MPI</a></u>
+							is a Message Passing Interface used in Parallel and Distributed
+							computing. The goal of the Project is that when a MPI program is
+							run, the profiler should generate a critical-path profile which
+							is a directed graph called a MPI task graph with the critical
+							path annotated, along with Program Execution Summary.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal3" class="image"> <img
+						src="images/router.png"
+						class="thumbnail img-responsive center-block" height=150 width=250
+						alt="Software Router"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">Software Network Router </font>
+						</h3>
+						<p>
+							<u><a target="_blank"
+								href="http://en.wikipedia.org/wiki/Router_%28computing%29">Software
+									Router</a></u> runs on top of a <u><a target="_blank"
+								href="http://dl.acm.org/citation.cfm?id=1047383">Virtual
+									Network System (VNS)</a></u>. Using the VNS enables the router to
+							process and send real Ethernet frames, sending them over the
+							network like a real router.<u><a target="_blank"
+								href="http://yuba.stanford.edu/cs344/admin/pwospf/">PWOSPF</a></u>
+							is used to handle network traffic in case of Link Failures
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal4" class="image"> <img
+						src="images/rMPI1.png"
+						class="thumbnail img-responsive center-block" height=350 width=350
+						alt="Redundant MPI"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">Failure tolerance in
+								Distributed Computing </font>
+						</h3>
+						<p>
+							This project is based on a paper <u><a target="_blank"
+								href="resume/rMPI.pdf">Evaluating the Viability of Process
+									Replication Reliability for Exascale Systems</a></u>. Using PMPI, a
+							scheme by which an MPI program runs redundantly such that if one
+							MPI rank (one system) fails, the program will continue with the
+							replica rank. In other words, you will be able to survive certain
+							failures.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal5" class="image"> <img
+						src="images/GIS.png" class="thumbnail img-responsive center-block"
+						height=150 width=250 alt="GIS"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">Geographic Information Systems</font>
+						</h3>
+						<p>
+							<u><a target="_blank"
+								href="http://en.wikipedia.org/wiki/Geographic_information_system">Geographic
+									Information Systems</a></u> (GIS) is a computer system for capturing,
+							storing, checking, and displaying data related to positions on
+							Earth's surface. GIS can show many different kinds of data on one
+							map. This enables people to more easily see, analyze, and
+							understand patterns and relationships.
+
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<a data-toggle="modal" href="#modal1" class="image"> <img
+						src="images/shopforme.png"
+						class="thumbnail img-responsive center-block" height=150 width=150
+						alt="Single sign on"> <span class="overlay"></span>
+					</a>
+					<div class="description">
+						<h3>
+							<font color="red" size="5">Single sign on Shopping Portal
+							</font>
+						</h3>
+						<p>
+							<u><a target="_blank"
+								href="http://en.wikipedia.org/wiki/Single_sign-on">Single
+									Sign On</a></u> was used to Develop an online shopping portal similar
+							to Amazon, users can register and are authenticated Based on the
+							Credentials. Users can Add, Delete, Modify items and request for
+							items not in stock.
+
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!--  Projects Popup pages start -->
+	<!-- Single sign on Shopping Portal -->
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+		<div class="wrapper">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close" style="font-size: 4em; padding-right: 1%;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="jumbotron">
+				<h3 class="text-center" style="font-weight: 900">Single Sign on
+					Shopping Cart</h3>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Overview</h3>
+				<p>
+					<font size="3">Users are usually frustrated when they are
+						expected to retype their credentials into a website once they have
+						logged in already. Single sign on feature maintains the session
+						information of the user until he/she does not logout. Hence the
+						user is not prompted to enter the password until the next login </font>
+				</p>
+				<br />
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<h3 class="text-left" style="font-weight: 900">Technologies
+							Used</h3>
+						<ul class="text-left list-element " style="font-size: 1em;">
+							<li>Java</li>
+							<li>Java Script</li>
+							<li>Java server Pages (JSP)</li>
+							<li>Oracle DB (SQL)</li>
+							<li>Servlets</li>
+						</ul>
+					</div>
+				</div>
+				<div id="carousel-1" class="carousel slide" data-ride="carousel"
+					data-interval="2000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-1" data-slide-to="1"></li>
+						<li data-target="#carousel-1" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive center-block"
+								src="images/shoppingcart1.jpg" alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block"
+								src="images/shoppingcart2.jpg" alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block"
+								src="images/shoppingcart3.jpg" alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-1" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#carousel-1" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+			</div>
+			<h2 class="modal-title">
+				<a
+					href="https://www.iconfinder.com/search/?q=iconset%3Aflat-ui-free"></a>
+			</h2>
+		</div>
+	</div>
+
+	<!--  MPI Critical Path Profiler -->
+	<div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+		<div class="wrapper">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close" style="font-size: 4em; padding-right: 1%;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="jumbotron">
+				<h3 class="text-center" style="font-weight: 900">MPI Critical
+					Path Profiler</h3>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Overview</h3>
+				<p>
+					<font size="3">MPI is designed in such a way that each MPI
+						function is defined as a weak symbol. That means that all MPI
+						functions have an implementation within the MPI library. However,
+						if the programmer overrides that implementation by creating their
+						own version of the MPI function, that version will instead be
+						Invoked.</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Requirement</h3>
+				<p>
+					<font size="3">By Overriding the MPI Implementation of the
+						functions during execution of the MPI Program, we will generate a
+						MPI Task Graph which is a directed, weighted graph. There is an
+						edge between every pair of consecutive vertices V and W. The edge
+						weight is the wall clock time that has elapsed from the end of the
+						MPI operation corresponding to V and the beginning of the MPI
+						operation corresponding to W.</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Results</h3>
+				<p>
+					<font size="3">After program execution (at MPI Finalize),
+						the MPI critical path graph should then be displayed on the screen
+						(Using GraphViz). Critical path is the longest path in execution.
+						Using which the user can identify bottlenecks in execution flow. </font>
+				</p>
+				<br />
+
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<h3 class="text-left" style="font-weight: 900">Technologies
+							Used</h3>
+						<ul class="text-left list-element " style="font-size: 1em;">
+							<li>C</li>
+							<li>MPI</li>
+							<li>Graph Viz</li>
+							<li>GDB</li>
+						</ul>
+					</div>
+				</div>
+				<div id="carousel-2" class="carousel slide" data-ride="carousel"
+					data-interval="2000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-2" data-slide-to="1"></li>
+						<li data-target="#carousel-2" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive center-block"
+								src="images/MpiTaskGraph1.png" alt="" height="200" width="200">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block"
+								src="images/MpiTaskGraph2.png" alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block"
+								src="images/MpiTaskGraph3.png" alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-2" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#carousel-2" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+			</div>
+			<h2 class="modal-title">
+				<a
+					href="https://www.iconfinder.com/search/?q=iconset%3Aflat-ui-free"></a>
+			</h2>
+		</div>
+	</div>
+
+	<!--  SoftwareRouter -->
+	<div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+		<div class="wrapper">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close" style="font-size: 4em; padding-right: 1%;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="jumbotron">
+				<h3 class="text-center" style="font-weight: 900">Software
+					Router</h3>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Overview</h3>
+				<p>
+					<font size="3">The Router uses VNS which enables it to
+						process and send real Ethernet frames, sending them over the
+						network like a real router. The Router must handle the various
+						functionalities that an actual router would. In case of a link
+						failure the router uses <u><a target="_blank"
+							href="http://yuba.stanford.edu/cs344/admin/pwospf/">PWOSPF</a></u> to
+						route traffic through the network.
+					</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Requirement</h3>
+				<p>
+					<font size="3">The router should be able to handle </font>
+				</p>
+				<ol class="text-left list-element " style="font-size: 1em;">
+					<li>Perform sanity checks against all incoming packets</li>
+					<li>Handle <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Address_Resolution_Protocol">ARP</a></u>
+						messages (Request and Reply)
+					</li>
+					<li>Maintain an <u><a target="_blank"
+							href="http://www.tcpipguide.com/free/t_ARPCaching.htm">ARP
+								Cache</a></u> which refreshes every 30 sec.
+					</li>
+					<li>Handle <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Internet_Control_Message_Protocol">ICMP</a></u>
+						packets to detect if a host is reachable or not
+					</li>
+					<li>Handle <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Internet_Protocol">IP</a></u>
+						packets.
+					</li>
+					<li>Handle <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Ping_%28networking_utility%29">Ping</a></u>
+						packets to other systems in the topology or to its own(Router's)
+						interfaces
+					</li>
+					<li>Handle <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Traceroute">Traceroute</a></u> to
+						display the path a packet takes to reach its destination.
+					</li>
+					<li>Handle link failures using <u><a target="_blank"
+							href="http://en.wikipedia.org/wiki/Traceroute">PWOSPF</a></u> to
+						reroute network traffic. PWOSPF must be able to rebuild the
+						correct routing table when a link goes down using <u><a
+							target="_blank"
+							href="http://en.wikipedia.org/wiki/Link_state_packet">Link
+								State Updates</a></u></li>
+					<li>Router must be able to download/play/view a music file,
+						image and a video</li>
+				</ol>
+				More information can be found <a target="_blank"
+					href="http://yuba.stanford.edu/cs344/admin/basic-router/">Here</a>
+				and<a target="_blank"
+					href="http://www.scs.stanford.edu/08sp-cs144/labs/router.html">
+					Here</a> <br />
+				<h3 class="text-left" style="font-weight: 900">Results</h3>
+				<p>
+					<font size="3">Implemented a fully functional software
+						router that handles network flow and link failures.<br />The
+						source code can be found <u><a target="_blank"
+							href="https://github.com/rkamath89/cs525-ComputerNetworks/">here</a></u>
+					</font>
+				</p>
+				<br />
+
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<h3 class="text-left" style="font-weight: 900">Technologies
+							Used</h3>
+						<ul class="text-left list-element " style="font-size: 1em;">
+							<li>C</li>
+							<li>TCP Dump</li>
+							<li>Wire Shark</li>
+							<li>TCP/IP</li>
+						</ul>
+					</div>
+				</div>
+				<div id="carousel-3" class="carousel slide" data-ride="carousel"
+					data-interval="2000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-3" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-3" data-slide-to="1"></li>
+						<li data-target="#carousel-3" data-slide-to="2"></li>
+						<li data-target="#carousel-3" data-slide-to="3"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive center-block" src="images/router.png"
+								alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/router2.png"
+								alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/router3.png"
+								alt="" height="500" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/router1.png"
+								alt="" height="500" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-3" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#carousel-3" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+			</div>
+			<h2 class="modal-title">
+				<a
+					href="https://www.iconfinder.com/search/?q=iconset%3Aflat-ui-free"></a>
+			</h2>
+		</div>
+	</div>
+
+	<!--rMPI -->
+	<div class="modal fade" id="modal4" tabindex="-1" role="dialog">
+		<div class="wrapper">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close" style="font-size: 4em; padding-right: 1%;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="jumbotron">
+				<h3 class="text-center" style="font-weight: 900">Failure
+					tolerance in Distributed Computing (rMPI)</h3>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Overview</h3>
+				<p>
+					<font size="3">Process replication, generally referred to as
+						state machine replication, is a well-known technique for
+						tolerating faults in systems that target high-availability. In
+						this approach, a process's state is replicated such that if the
+						process fails, its replica is available or can be generated to
+						assume the original process's role without disturbing the other
+						application processes.</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Requirement</h3>
+				<p>
+					<font size="3">The implementation of rMPI must be able to
+						handle both Mirrored and Parallel Protocol as specified in the <u><a
+							target="_blank" href="resume/rMPI.pdf">paper</a></u>. <br />The user
+						will execute an MPI program on "N" Nodes, desiring an "N" Nodes
+						replica ( Each primary node has a replica node ). <br />We will
+						support only MPI Send, MPI Recv and MPI Barrier (dissolved into
+						MPI Send and Recv). <br />We will also be supporting ANY_SOURCE.
+						<br />A node will be "killed" (by a test programs) explicitly
+						from a user program which makes a calls to MPI_Pcontrol. The
+						single parameter will indicate the node to be killed. <br /> <u>Note:</u>
+						If a node is to be killed, the id will be in the range N to 2N-1.
+						When a node fails the surviving partner node must take over the
+						role of the failing partner for the rest of the application.
+					</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Results</h3>
+				<p>
+					<font size="3">Implemented the redundant Fault tolerance
+						scheme for MPI programs using both Parallel and Mirred Protocol <br />
+						<strong>Mirrored protocol</strong>, as per the specification , let
+						A and B represent distinct MPI Nodes and A' and B' their replicas
+						respectively. <br /> In this protocol, each sender transmits
+						duplicate messages to each of the destinations. <br />Similarly,
+						receivers must post multiple receives for the duplicate messages,
+						but only require one of those messages to arrive in order to
+						progress. <br />This eases recovery after a failure, but doubles
+						network bandwidth requirements. <br /> <br /> <strong>Parallel
+							protocol</strong>, In this approach, each replica has a single
+						corresponding replica for each other rank (Node) with which it
+						communicates in non-failure scenarios. <br />In the case of
+						failure, one of the remaining replicas of a rank takes over
+						sending and receiving for the failed node. <br />This failure
+						detection requires frequent message-based interaction with the
+						reliability system on current systems. <br />As a result, the
+						parallel protocol will initiate approximately double the number of
+						messages for each send operation. <br />These extra messages
+						contain MPI envelope information and are small. Hence the parallel
+						protocol reduces network bandwidth requirements for an increased
+						number of short messages.
+					</font>
+				</p>
+
+				<br /> The source code can be found<a target="_blank"
+					href="https://github.com/rkamath89/cs522-Parallel-Programming/tree/master/hw3">
+					here</a> along with the test cases,detailed project description and <a
+					target="_blank"
+					href="https://github.com/rkamath89/cs522-Parallel-Programming/blob/master/hw3/results.pdf">Results</a>.
+				<br />
+
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<h3 class="text-left" style="font-weight: 900">Technologies
+							Used</h3>
+						<ul class="text-left list-element " style="font-size: 1em;">
+							<li>C</li>
+							<li>MPI</li>
+							<li>GDB</li>
+						</ul>
+					</div>
+				</div>
+				<div id="carousel-4" class="carousel slide" data-ride="carousel"
+					data-interval="2000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-4" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-4" data-slide-to="1"></li>
+						<li data-target="#carousel-4" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive center-block" src="images/rMPI1.png"
+								alt="" height="500" width="500">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/rMPI3.png"
+								alt="" height="500" width="500">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/rMPI2.png"
+								alt="" height="500" width="500">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-4" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#carousel-4" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+			</div>
+			<h2 class="modal-title">
+				<a
+					href="https://www.iconfinder.com/search/?q=iconset%3Aflat-ui-free"></a>
+			</h2>
+		</div>
+	</div>
+	<!--  GIS -->
+	<div class="modal fade" id="modal5" tabindex="-1" role="dialog">
+		<div class="wrapper">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close" style="font-size: 4em; padding-right: 1%;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="jumbotron">
+				<h3 class="text-center" style="font-weight: 900">Geographic
+					Information Systems</h3>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Overview</h3>
+				<p>
+					<font size="3">Traditional methods for Power management have
+						proved inefficient and we require new ways to manage power
+						efficient and effectively, hence this Project is based on
+						Geographic Information systems (GIS) to introduce and explain how
+						it can be utilized for Power Management for the State of <u><a
+							target="_blank" href="http://en.wikipedia.org/wiki/Karnataka">Karnataka</a></u>.
+					</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Requirement</h3>
+				<font size="3"><p>
+						Data regarding Power Generation and consumption for the State of
+						Karnataka was collected. <br />The Map of Karnataka was digitized
+						and geo referenced with the necessary coordinate system and
+						projection system. <br />The Data gathered was plotted on the Map
+						to provide users with visual representation regarding important
+						information. <br />A website was created using html to provide a
+						quick reference to users and also served as a Tourism website. <br />Users
+						can query information using the search option on the web portal</font>
+				</p>
+				<br />
+				<h3 class="text-left" style="font-weight: 900">Results</h3>
+				<p>
+					<font size="3">The map of Karnataka was digitized and fed
+						into the OPS GIS tool. Using the tool the Map was geo-referenced
+						and the data points were plotted on the map. <br />A webpage was
+						developed using html and java script, this served as a purpose of
+						a Tourism website and an information portal for power management.
+						<br />The entire project report can be found <a target="_blank"
+						href="https://github.com/rkamath89/Geogriphic-Information-Systems--GIS-/blob/master/Geographic%20Information%20System.docx">here</a>
+					</font>
+				</p>
+				<br />
+
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<h3 class="text-left" style="font-weight: 900">Technologies
+							Used</h3>
+						<ul class="text-left list-element " style="font-size: 1em;">
+							<li>OPS GIS</li>
+							<li>SQL</li>
+							<li>HTML, Java Script</li>
+						</ul>
+					</div>
+				</div>
+				<div id="carousel-5" class="carousel slide" data-ride="carousel"
+					data-interval="2000" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-5" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-5" data-slide-to="1"></li>
+						<li data-target="#carousel-5" data-slide-to="2"></li>
+						<li data-target="#carousel-5" data-slide-to="3"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-responsive center-block" src="images/GIS.png"
+								alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/GIS1.png"
+								alt="" height="400" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/GIS2.png"
+								alt="" height="500" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img class="img-responsive center-block" src="images/GIS3.png"
+								alt="" height="500" width="400">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-5" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#carousel-5" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<br />
+			</div>
+			<h2 class="modal-title">
+				<a
+					href="https://www.iconfinder.com/search/?q=iconset%3Aflat-ui-free"></a>
+			</h2>
+		</div>
+	</div>
+
+	<!--  Projects End  -->
 	<div id="menu-outer" style="margin-top: 26px;">
 		<div class="table1">
 			<p class="interest">
-				<font color="black" size="10">Interests </font>
+				<font>Interests </font>
 			</p>
 			<ul class="horizonatal-list">
 				<li class="center1"><a> <!-- <span class="valign"></span> -->
@@ -201,58 +914,291 @@ slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
 
 	<div id="skills" class="skills">
 		<h1 id="skills-link">
-			<font color="black" size="10">Skills</font>
+			<p class="interest">Skills</p>
 		</h1>
 	</div>
-	<div>
-		<ul class="grid cs-style-1">
-			<li>
-				<figure class="cs-hover">
-					<img src="images/Technology-Voucher-Program.jpg" alt="img01">
-					<figcaption>
-						<h3>Technology</h3>
-
-						<div class="left">C, C++</div>
-						<div class="left">Java, J2EE</div>
-						<div class="left">Android</div>
-						<div class="left">SQL</div>
-						<div class="left">Open GL</div>
-						<div class="left">MPI, Open MP</div>
-						<div class="left">HTML5, JavaScript, Ext-Js, SS3, JSP,
-							Servlets, Hibernates and springs</div>
-					</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure class="cs-hover">
-					<img src="images/Tips.jpg" alt="img02" height="300" width="200">
-					<figcaption>
-						<h3>
-							<font color="black">Development Tools</font>
-						</h3>
-
-						<div class="left">
-							<font color="black"><u>IDE</u></font> : Eclipse, Visual Studio,
-							Code Blocks
-						</div>
-						<div class="left">
-							<font color="black"><u>Version Control</u></font> : GIT, IBM
-							Clear Case
-						</div>
-						<div class="left">
-							<font color="black"><u>Issue Tracking</u></font> : JIRA, IBM
-							Clear Quest
-						</div>
-
-					</figcaption>
-				</figure>
-			</li>
-		</ul>
+	<div class="col-md-12">
+		<p
+			style="font-family: 'Quattrocento', serif; font-size: 20px; line-height: 28px; text-align: center;">My
+			tricks of the trade and what I can bring to the table.</p>
 	</div>
+	<div class="row masonry-grid">
 
+		<!-- Skills Modelling -->
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="row">
+			<div class="col-sm-2 col-md-offset-1">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>C</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>C++</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Java</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>J2EE</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>SQL</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-sm-2 col-md-offset-2">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>HTML</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Java Script</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Python</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>MPI</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Open Mp</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-sm-2 col-md-offset-1">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Open GL</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Spring</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Hibernate</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>Servlets</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-2 col-md-offset-0">
+				<div class="ih-item circle effect1">
+					<a href="#">
+						<div class="spinner"></div>
+						<div class="info">
+							<div class="info-back">
+								<h3>GIT</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+			<br />
+		</div>
+	</div>
+	<!-- <div class="row">
+  <div class="col-sm-6">
+ 
+    normal
+    <div class="ih-item circle effect1"><a href="#">
+        <div class="spinner"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Heading here</h3>
+            <p>Description goes here</p>
+          </div>
+        </div></a></div>
+    end normal
+ 
+  </div>
+  </div> -->
 	<div id="resume" class="resume">
 		<h1 id="resume-link">
-			<font color="black" size="10">Resume</font>
+			<p class="interest">Resume</p>
 		</h1>
 	</div>
 	<div class="col-xs-7 col-md-offset-3"
@@ -264,47 +1210,22 @@ slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
 				<i class="icon-download-alt"><img src="images/saveIcon.png"
 					height="30" width="30" /> </i><span>SAVE AS PDF</span>
 			</button>
-		</a> 
+		</a>
 		<!-- </div> -->
 
 		<!-- <div class="col-xs-6 col-md-offset-3"> -->
 		<a href="resume/RahulPradeepKamath.pdf" target="_blank">
 			<button id="resume" class="btn btn-5 btn-5a resumebutton"
 				type="submit">
-				<i class="icon-resize-full"> <img src="images/Apps-Search-icon.png"
-					height="30" width="30" /></i><span>View Resume</span>
+				<i class="icon-resize-full"> <img
+					src="images/Apps-Search-icon.png" height="30" width="30" /></i><span>View
+					Resume</span>
 			</button>
 		</a>
 
 		<!-- </div>   -->
 	</div>
-	<!--  TO DO Start , popup display -->
-	<!-- Button trigger modal -->
-	<button type="button" class="btn btn-primary btn-lg pull-center"
-		data-toggle="modal" data-target="#myModal">Launch demo modal
-	</button>
 
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-				</div>
-				<div class="modal-body">...</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--  TO DO END -->
 
 	<div style="margin-top: 296px;"></div>
 	<!-- Contact Section -->
@@ -312,14 +1233,12 @@ slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
 		<div class="container">
 
 			<div class="content form-content">
-				<h1 id="contact-link">
-					<font color="black" size="10">Contact Me</font>
-				</h1>
+				<h1 id="contact-link"></h1>
+				<p class="interest">Contact Me</p>
 				<!-- <h1 id="contact-link" style="color: #aa3e03; padding-bottom:3%">Contact Me</h1> -->
 				<h2>
 					<strong>Email me at:</strong> rahul.p.kamath@gmail.com
 				</h2>
-				<br />
 				<h2>You can also leave a message below.</h2>
 				<br />
 
@@ -367,7 +1286,7 @@ slideimages[2].src = "images/3d-Wallpaper-Hd-Fantasy-Full-Color.jpg"
 			<p class="right">&copy 2015 Copyright rkamath</p>
 		</div>
 	</div>
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 //variable that will increment through the images
 var step=0
 
@@ -386,7 +1305,7 @@ function slideit(){
 
 slideit()
 
-</script>
+</script> -->
 
 
 
