@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
 
+.customImg {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+}
+
 .overlay {
 	position: absolute;
 	left: 0;
@@ -96,7 +100,6 @@ CSS For the Main Image hover effect
 	float: left;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	font-weight: 10;
-	
 	font-size: 20px;
 	position: relative;
 	color: YELLOW;
@@ -204,50 +207,68 @@ CSS For the Main Image hover effect
 	bottom: 350px;
 	left: -600px;
 }
+
 .numberCircle {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-
-    width: 100px;
-    height: 100px;
-    padding: 8px;
-    line-height
-    background: #fff;
-    border: 2px solid #666;
-    color: #666;
-    text-align: center;
-    vertical-align: middle;
-    font: 32px Arial, sans-serif;
+	border-radius: 50%;
+	behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+	width: 100px;
+	height: 100px;
+	padding: 8px;
+	line-height background: #fff;
+	border: 2px solid #666;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	font: 32px Arial, sans-serif;
 }
 
-.numberCircle{
-   width:110px;
-    height:110px;
-    border-radius:250px;
-    font-size:22px;
-    color:#fff;
-    vertical-align:middle;
-    text-align:center;
-    background:#000
+.numberCircle {
+	width: 110px;
+	height: 110px;
+	border-radius: 250px;
+	font-size: 22px;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	background: #000
 }
-.numberCircleSmall{
-   width:110px;
-    height:110px;
-    border-radius:250px;
-    font-size:18px;
-    color:#fff;
-    vertical-align:middle;
-    text-align:center;
-    background:#000
+
+.numberCircleSmall {
+	width: 110px;
+	height: 110px;
+	border-radius: 250px;
+	font-size: 18px;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	background: #000
 }
-h3.circle
-    {
-    width:100px;
-    height:100px;
-    border-radius:250px;
-    font-size:32px;
-    color:#fff;
-    vertical-align:middle;
-    text-align:center;
-    background:#000
-    }
+
+h3.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 250px;
+	font-size: 32px;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	background: #000
+}
+
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: YELLOW;
+}
+
+.back-to-top i {
+	font-size: 60px;
+}
