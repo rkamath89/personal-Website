@@ -13,7 +13,9 @@
 <link
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
 	rel="stylesheet">
-	<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+<link rel="stylesheet" id="font-awesome-css"
+	href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+	type="text/css" media="screen">
 <!-- Latest compiled and minified JavaScript -->
 
 <script
@@ -31,11 +33,40 @@
 	href="//fonts.googleapis.com/css?family=Raleway" />
 <link href="css/ihover.css" rel="stylesheet">
 <script type="text/javascript">
+	$(document).ready(function() {
+		if ($("#para2").is(":visible") == true) {
+			$("#para2").hide();
+		}
+		if ($("#para3").is(":visible") == true) {
+			$("#para3").hide();
+		}
+		if ($("#para1").is(":visible") == true) {
+			$("#para1").hide();
+		}
+		$("#button1").click(function() {
+			if ($("#para2").is(":visible") == true) {
+				$("#para2").hide();
+			}
+			$("#para1").toggle();
+		});
+		$("#button2").click(function() {
+			if ($("#para1").is(":visible") == true) {
+				$("#para1").hide();
+			}
+			$("#para2").toggle();
+		});
+		$("#button3").click(function() {
+			if ($("#para2").is(":visible") == true) {
+				$("#para2").hide();
+			}
+			$("#para3").toggle();
+		});
 
+	});
 </script>
 </head>
 <body>
-	<div  class ="col-md-10 col-md-offset-1 col-sm-10 col-xs-10" >
+	<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-10">
 		<div id="btn-group">
 			<p class="main">
 				<font size="5" style="font-family: 'Raleway'"> Rahul Pradeep
@@ -140,11 +171,44 @@
 	<img src="images/DSC01881.JPG" id="slide"
 		alt="HTML Tutorial" height="600" width="1349" />
  -->
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+	<div class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12 item"">
+		<div id="work" class="work">
+			<h1 id="work-link">
+				<p class="interest">Work Experience</p>
+			</h1>
+		</div>
+		</div>
+	
+	<div class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12 item"">
+		<div class="outer">
+			<div>
+				<button id="button1" class="circle1"></button>
+				<p class="name">Software Intern</p>
+			</div>
+
+			<div>
+				<button id="button2" class="circle2"></button>
+				<p class="name2">Associate Software Engineer</p>
+			</div>
+			<div>
+				<button id="button3" class="circle3"></button>
+				<p class="name3">Software Engineer</p>
+			</div>
+			<hr class="line" noshade size=4 width="70%">
+		</div>
+		<div id="para1" class="bg">
+			<p>Para1</p>
+		</div>
+		<div id="para2" class="bg">
+			<p>Para2</p>
+		</div>
+		<div id="para3" class="bg">
+			<p>Para3dfsfsdfsdfdsfsdf
+			sdfdsfsdfsdfsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+			dsfsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+			dssssssssssssssssssss</p>
+		</div>
+	</div>
 	<div id="projects" class="section welcome">
 		<div class="container">
 			<div id="Projects">
@@ -163,8 +227,8 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10">Single sign on Shopping Portal
-							</font>
+							<font color="BLACK" size="5" style="font-weight: 10">Single
+								sign on Shopping Portal </font>
 						</h3>
 						<p>
 							<u><a target="_blank"
@@ -187,7 +251,8 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10">MPI Profiler </font>
+							<font color="BLACK" size="5" style="font-weight: 10">MPI
+								Profiler </font>
 						</h3>
 						<p>
 							<u><a target="_blank"
@@ -208,7 +273,8 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10">Software Network Router </font>
+							<font color="BLACK" size="5" style="font-weight: 10">Software
+								Network Router </font>
 						</h3>
 						<p>
 							<u><a target="_blank"
@@ -240,8 +306,8 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10">Failure tolerance in
-								Distributed Computing </font>
+							<font color="BLACK" size="5" style="font-weight: 10">Failure
+								tolerance in Distributed Computing </font>
 						</h3>
 						<p>
 							This project is based on a paper <u><a target="_blank"
@@ -261,7 +327,8 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10" >Geographic Information Systems</font>
+							<font color="BLACK" size="5" style="font-weight: 10">Geographic
+								Information Systems</font>
 						</h3>
 						<p>
 							<u><a target="_blank"
@@ -283,13 +350,19 @@
 					</a>
 					<div class="description">
 						<h3>
-							<font color="BLACK" size="5" style="font-weight:10">3D Object Rendering
-							</font>
+							<font color="BLACK" size="5" style="font-weight: 10">3D
+								Object Rendering </font>
 						</h3>
 						<p>
-							Geometric information about a 3D Objects can be parsed from a file, and <u><a target="_blank"
-								href="https://www.opengl.org/wiki/Rendering_Pipeline_Overview">rendered</a></u> using <u><a target="_blank" href="https://www.opengl.org/">Open GL</a></u>. Once these objects are rendered we can apply the classic lighting model and apply texture maps on the object.
-							The code is a generic code and can handle any <u><a target="_blank" href="http://www.martinreddy.net/gfx/3d/OBJ.spec">object file</a></u>								
+							Geometric information about a 3D Objects can be parsed from a
+							file, and <u><a target="_blank"
+								href="https://www.opengl.org/wiki/Rendering_Pipeline_Overview">rendered</a></u>
+							using <u><a target="_blank" href="https://www.opengl.org/">Open
+									GL</a></u>. Once these objects are rendered we can apply the classic
+							lighting model and apply texture maps on the object. The code is
+							a generic code and can handle any <u><a target="_blank"
+								href="http://www.martinreddy.net/gfx/3d/OBJ.spec">object
+									file</a></u>
 
 						</p>
 					</div>
@@ -867,44 +940,59 @@
 				<span aria-hidden="true">&times;</span>
 			</button>
 			<div class="jumbotron">
-				<h3 class="text-center" style="font-weight: 900">3D Object Rendering</h3>
+				<h3 class="text-center" style="font-weight: 900">3D Object
+					Rendering</h3>
 				<br />
 				<h3 class="text-left" style="font-weight: 900">Overview</h3>
 				<p>
-					<font size="3">Develop a geometry viewer which is an interactive program that reads geometry descriptions from files and uses OpenGL to render the objects in 3D.
-					<br/>Once the 3D model is rendered apply any lighting and viewing parameters as specified in the Control File (control file passed as an argument to the program).
-					<br/>Additionally if the 3D Object has any texture mapping associated with it then handle texture mapping of the object.
+					<font size="3">Develop a geometry viewer which is an
+						interactive program that reads geometry descriptions from files
+						and uses OpenGL to render the objects in 3D. <br />Once the 3D
+						model is rendered apply any lighting and viewing parameters as
+						specified in the Control File (control file passed as an argument
+						to the program). <br />Additionally if the 3D Object has any
+						texture mapping associated with it then handle texture mapping of
+						the object.
 					</font>
 				</p>
 				<br />
 				<h3 class="text-left" style="font-weight: 900">Requirement</h3>
 				<font size="3">
-				<ol>
-				<li>Read the control file and apply the Lighting, Transformations and default viewing parameters as specified</li>
-				<li>Allow the user to interact with the object using the keyboard so that they can :
-				<ul>
-					<li>Rotate the object</li>
-					<li>Move the camera along the view up vector</li>
-					<li>Move the Focal point along the view up vector</li>
-					<li>Rotate the view up vector</li>
-					<li>Reset the object to its initail frame</li>
-					<li>Zoom in and out</li>
-					<li>Toggle between wireFrame and Shaded object</li>
-				</ul>
-				</li>
-				<li>If the 3D Object has any Texture mapping apply the same to the rendered object</li>
-				</ol>
-				<p>
-				
+					<ol>
+						<li>Read the control file and apply the Lighting,
+							Transformations and default viewing parameters as specified</li>
+						<li>Allow the user to interact with the object using the
+							keyboard so that they can :
+							<ul>
+								<li>Rotate the object</li>
+								<li>Move the camera along the view up vector</li>
+								<li>Move the Focal point along the view up vector</li>
+								<li>Rotate the view up vector</li>
+								<li>Reset the object to its initail frame</li>
+								<li>Zoom in and out</li>
+								<li>Toggle between wireFrame and Shaded object</li>
+							</ul>
+						</li>
+						<li>If the 3D Object has any Texture mapping apply the same
+							to the rendered object</li>
+					</ol>
+					<p>
 				</font>
 				</p>
 				<br />
 				<h3 class="text-left" style="font-weight: 900">Results</h3>
 				<p>
-					<font size="3">Developed a generic program to read any <u><a target="_blank" href="http://www.martinreddy.net/gfx/3d/OBJ.spec">object file</a></u>
-					 that is passed as Input. The file is parsed to obtain all the required information, once the information is obtained we can apply the necessary lighting, Transformation and Texture mapping required before displaying it to the user.
-					 <br/>User input through the keyboard is consantly monitored and transformations are applied as required.
-					 <br/>The entire source code can be found <a target="_blank" href="https://github.com/rkamath89/cs533-ComputerGraphics/tree/master/prog4">here</a> along with the project description.
+					<font size="3">Developed a generic program to read any <u><a
+							target="_blank" href="http://www.martinreddy.net/gfx/3d/OBJ.spec">object
+								file</a></u> that is passed as Input. The file is parsed to obtain all
+						the required information, once the information is obtained we can
+						apply the necessary lighting, Transformation and Texture mapping
+						required before displaying it to the user. <br />User input
+						through the keyboard is consantly monitored and transformations
+						are applied as required. <br />The entire source code can be
+						found <a target="_blank"
+						href="https://github.com/rkamath89/cs533-ComputerGraphics/tree/master/prog4">here</a>
+						along with the project description.
 					</font>
 				</p>
 				<br />
@@ -933,25 +1021,28 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img class="img-responsive center-block" src="images/graphics2.png"
-								alt="" height="400" width="400">
+							<img class="img-responsive center-block"
+								src="images/graphics2.png" alt="" height="400" width="400">
 						</div>
 						<div class="item">
-							<img class="img-responsive center-block" src="images/graphics1.png"
-								alt="" height="400" width="400">
-							<div class="carousel-caption"><font color="BLACK">3D Object with different textures on various faces of the cube</font></div>
+							<img class="img-responsive center-block"
+								src="images/graphics1.png" alt="" height="400" width="400">
+							<div class="carousel-caption">
+								<font color="BLACK">3D Object with different textures on
+									various faces of the cube</font>
+							</div>
 						</div>
 						<div class="item">
-							<img class="img-responsive center-block" src="images/graphics3.png"
-								alt="" height="400" width="400">
+							<img class="img-responsive center-block"
+								src="images/graphics3.png" alt="" height="400" width="400">
 						</div>
 						<div class="item">
-							<img class="img-responsive center-block" src="images/graphics4.png"
-								alt="" height="500" width="400">
+							<img class="img-responsive center-block"
+								src="images/graphics4.png" alt="" height="500" width="400">
 						</div>
 						<div class="item">
-							<img class="img-responsive center-block" src="images/graphics5.png"
-								alt="" height="500" width="400">
+							<img class="img-responsive center-block"
+								src="images/graphics5.png" alt="" height="500" width="400">
 						</div>
 					</div>
 					<!-- Controls -->
@@ -1014,87 +1105,244 @@
 		<p
 			style="font-family: 'Quattrocento', serif; font-size: 20px; line-height: 28px; text-align: center;">My
 			tricks of the trade and what I can bring to the table.</p>
-	
-	<div class="row masonry-grid">
 
-		<!-- Skills Modelling -->
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="row">
-			<div class="col-sm-2 col-md-offset-1">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>C</h3>
-							</div>
-						</div>
-					</a>
-				</div>
+		<div class="row masonry-grid">
+
+			<!-- Skills Modelling -->
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
 			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>C++</h3>
-							</div>
-						</div>
-					</a>
-				</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
 			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Java</h3>
-							</div>
-						</div>
-					</a>
-				</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
 			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a >
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>J2EE</h3>
-							</div>
-						</div>
-					</a>
-				</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
 			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>SQL</h3>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+				<br />
+			</div>
+			<div class="row">
+				<div class="col-sm-2 col-md-offset-1">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>C</h3>
+								</div>
 							</div>
-						</div>
-					</a>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>C++</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Java</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>J2EE</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>SQL</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-sm-2 col-md-offset-2">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>HTML</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Java Script</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Python</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>MPI</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Open Mp</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
+					<br />
+				</div>
+				<div class="col-sm-2 col-md-offset-1">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Open GL</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Spring</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Hibernate</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>Servlets</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-0">
+					<div class="ih-item circle effect1">
+						<a>
+							<div class="spinner"></div>
+							<div class="info">
+								<div class="info-back">
+									<h3>GIT</h3>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
@@ -1115,164 +1363,7 @@
 			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
 				<br />
 			</div>
-			<div class="col-sm-2 col-md-offset-2">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>HTML</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Java Script</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Python</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>MPI</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Open Mp</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-				<br />
-			</div>
-			<div class="col-sm-2 col-md-offset-1">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Open GL</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Spring</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Hibernate</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>Servlets</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-offset-0">
-				<div class="ih-item circle effect1">
-					<a>
-						<div class="spinner"></div>
-						<div class="info">
-							<div class="info-back">
-								<h3>GIT</h3>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
 		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-		<div class="col-md-4 col-md-offset-0 col-sm-4 col-xs-4 item">
-			<br />
-		</div>
-	</div>
 	</div>
 	<!-- <div class="row">
   <div class="col-sm-6">
@@ -1290,38 +1381,41 @@
  
   </div>
   </div> -->
-  <div class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12 item"">
-	<div id="resume" class="resume">
-		<h1 id="resume-link">
-			<p class="interest">Resume</p>
-		</h1>
+  <!-- End of Skill Set -->
+  
+	<div class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12 item"">
+		<div id="resume" class="resume">
+			<h1 id="resume-link">
+				<p class="interest">Resume</p>
+			</h1>
+		</div>
+		<div class="col-xs-7 col-md-offset-3"
+			style="display: inline-block; vertical-align: center;">
+			<!-- <div class="col-xs-6 col-md-offset-3"> -->
+
+			<a href="resume/RahulPradeepKamath.pdf" download>
+				<button id="resume" class="btn btn-5 btn-5a resumebutton">
+					<i class="icon-download-alt"><img src="images/saveIcon.png"
+						height="30" width="30" /> </i><span>SAVE AS PDF</span>
+				</button>
+			</a>
+			<!-- </div> -->
+
+			<!-- <div class="col-xs-6 col-md-offset-3"> -->
+			<a href="resume/RahulPradeepKamath.pdf" target="_blank">
+				<button id="resume" class="btn btn-5 btn-5a resumebutton"
+					type="submit">
+					<i class="icon-resize-full"> <img
+						src="images/Apps-Search-icon.png" height="30" width="30" /></i><span>View
+						Resume</span>
+				</button>
+			</a>
+
+			<!-- </div>   -->
+		</div>
 	</div>
-	<div class="col-xs-7 col-md-offset-3"
-		style="display: inline-block; vertical-align: center;">
-		<!-- <div class="col-xs-6 col-md-offset-3"> -->
-
-		<a href="resume/RahulPradeepKamath.pdf" download>
-			<button id="resume" class="btn btn-5 btn-5a resumebutton">
-				<i class="icon-download-alt"><img src="images/saveIcon.png"
-					height="30" width="30" /> </i><span>SAVE AS PDF</span>
-			</button>
-		</a>
-		<!-- </div> -->
-
-		<!-- <div class="col-xs-6 col-md-offset-3"> -->
-		<a href="resume/RahulPradeepKamath.pdf" target="_blank">
-			<button id="resume" class="btn btn-5 btn-5a resumebutton"
-				type="submit">
-				<i class="icon-resize-full"> <img
-					src="images/Apps-Search-icon.png" height="30" width="30" /></i><span>View
-					Resume</span>
-			</button>
-		</a>
-
-		<!-- </div>   -->
-	</div>
-</div>
-
+	<!--  End of Resume -->
+	
 	<div style="margin-top: 296px;"></div>
 	<!-- Contact Section -->
 	<div id="contact" class="section">
@@ -1332,7 +1426,8 @@
 				<p class="interest">Contact Me</p>
 				<!-- <h1 id="contact-link" style="color: #aa3e03; padding-bottom:3%">Contact Me</h1> -->
 				<h2>
-					<strong>Email me at:</strong>  <a target="_blank" href="mailto:rahul.p.kamath@gmail.com">rahul.p.kamath@gmail.com</a>
+					<strong>Email me at:</strong> <a target="_blank"
+						href="mailto:rahul.p.kamath@gmail.com">rahul.p.kamath@gmail.com</a>
 				</h2>
 				<h2>You can also leave a message below.</h2>
 				<br />
@@ -1381,28 +1476,30 @@
 			<p class="right">&copy 2015 Copyright rkamath</p>
 		</div>
 	</div>
-<a href="#" class="back-to-top" style="display: inline;">
-<i class="fa fa-arrow-circle-up"></i>
-</a>
+	<a href="#" class="back-to-top" style="display: inline;"> <i
+		class="fa fa-arrow-circle-up"></i>
+	</a>
 
-<script>
-jQuery(document).ready(function() {
-    var offset = 280;
-    var duration = 300;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
+	<script>
+		jQuery(document).ready(function() {
+			var offset = 280;
+			var duration = 300;
+			jQuery(window).scroll(function() {
+				if (jQuery(this).scrollTop() > offset) {
+					jQuery('.back-to-top').fadeIn(duration);
+				} else {
+					jQuery('.back-to-top').fadeOut(duration);
+				}
+			});
 
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
+			jQuery('.back-to-top').click(function(event) {
+				event.preventDefault();
+				jQuery('html, body').animate({
+					scrollTop : 0
+				}, duration);
+				return false;
+			})
+		});
+	</script>
 </body>
 </html>

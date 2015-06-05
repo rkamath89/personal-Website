@@ -231,19 +231,74 @@ ul li.center1 {
 	display: table; /* Allow the centering to work */
 	margin: 0 auto;
 }
-/* button:hover:before {
-	background-image: images/Technology-Voucher-Program.jpg);
-	content:"Reply!} */
-/* #resume
-	{
-    
-    font-size:0;
-    width:150px;
-    height:50px;
-	} */
-/* ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	width: 50px;
-	padding-top: 20px;
-	} */
+.bg {
+	
+	position: relative;
+	top: 0px;
+}
+
+hr.line {
+	top: -150px;
+	left: 0px;
+	position: relative;
+	z-index: -1;
+	color: black;
+	border-top: 3px solid black;
+}
+
+.circle1 {
+	width: 10px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 10px;
+	top: 70px;
+	left: 310px;
+	position: relative;
+}
+
+p.name {
+	top: 70px;
+	left: 295px;
+	position: relative;
+	max-width :10px;
+}
+
+p.name2 {
+	top: 0px;
+	left: 580px;
+	position: relative;
+	max-width :10px;
+}
+
+p.name3 {
+	top: -80px;
+	left: 890px;
+	position: relative;
+	max-width :100px;
+}
+
+.circle2 {
+	width: 10px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 20px;
+	top: 4px;
+	left: 600px;
+	position: relative;
+}
+
+.circle3 {
+	width: 10px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: -82px;
+	left: 910px;
+	position: relative;
+}
