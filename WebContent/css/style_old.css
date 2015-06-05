@@ -33,9 +33,9 @@
 }
 
 .masonry-grid .item .description {
-	padding: 20px;
+	/* padding: 20px; 
 	background-color: #eee;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;*/
 }
 
 .masonry-grid .item .description h2 {
@@ -58,7 +58,7 @@ CSS For the Main Image hover effect
 }
 
 .view {
-	width: 1200px;
+	width: 1100px;
 	height: 600px;
 	float: left;
 	border: 10px solid #B6ABAB;
