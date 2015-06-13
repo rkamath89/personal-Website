@@ -129,7 +129,7 @@ footer {
 	margin: auto;
 	text-align: center;
 	font-size: 1em;
-	color: #990000;
+	color: #C0C0C0;
 	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -231,9 +231,19 @@ ul li.center1 {
 	display: table; /* Allow the centering to work */
 	margin: 0 auto;
 }
-.pictue
+.myPicCircle
 {
-	opacity: 0.75;
+	width:140px;
+	height:140px;
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	z-index: 15;
+	top:-550px;
+	left:110px;
+	position: relative;
+	
+	
 }
 .bg {
 	
@@ -267,7 +277,7 @@ hr.line {
 {
 	width: 15px;
 	height: 15px;
-	background: yellow;
+	background: WHITE;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 10px;
@@ -350,7 +360,7 @@ p.year3 {
 {
 	width: 10px;
 	height: 15px;
-	background: yellow;
+	background: WHITE;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 20px;
@@ -375,7 +385,7 @@ p.year3 {
 {
 	width: 10px;
 	height: 15px;
-	background: yellow;
+	background: WHITE;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -409,7 +419,7 @@ p.year3 {
   background-color : #eee;
   margin:2px;
   float: left;
-  width: 680px;
+  width: 880px;
   margin: 0 120px 40px 200px;
   text-align: left;
   display: block;

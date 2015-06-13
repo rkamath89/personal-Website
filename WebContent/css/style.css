@@ -78,10 +78,7 @@ CSS For the Main Image hover effect
 	left: 0;
 }
 
-.view img {
-	display: block;
-	position: relative;
-}
+
 
 .view h2 {
 	text-transform: uppercase;
@@ -99,10 +96,10 @@ CSS For the Main Image hover effect
 	height: 600px;
 	float: left;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
-	font-weight: 10;
+	font-weight: 100;
 	font-size: 20px;
 	position: relative;
-	color: YELLOW;
+	color: Black;
 	padding: 10px 20px 20px;
 	bottom: 0px;
 	left: -900px;
@@ -200,11 +197,11 @@ CSS For the Main Image hover effect
 }
 
 .view h2.custom {
-	color: WHITE;
+	color: BLACK;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	font-weight: 10;
-	bottom: 350px;
+	bottom: 400px;
 	left: -600px;
 }
 
@@ -266,7 +263,7 @@ h3.circle {
 	z-index: 100;
 	display: none;
 	text-decoration: none;
-	color: YELLOW;
+	color: Black;
 }
 
 .back-to-top i {
